@@ -3,6 +3,8 @@ require_relative "../lib/php_extension_formula"
 class PhpAT74Imap < PhpExtensionFormula
   extension_dsl "IMAP Extension"
 
+  version 87
+
   depends_on "imap-uw"
   depends_on "openssl@1.1"
   depends_on "krb5"
