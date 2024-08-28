@@ -11,6 +11,14 @@ class SwitchPhp < Formula
     depends_on "shivammathur/extensions/imap@7.4"
     depends_on "shivammathur/extensions/xdebug@7.4"
 
+    depends_on "shivammathur/php/php@8.1"
+    depends_on "shivammathur/extensions/imap@8.1"
+    depends_on "shivammathur/extensions/xdebug@8.1"
+
+    depends_on "shivammathur/php/php@8.3"
+    depends_on "shivammathur/extensions/imap@8.3"
+    depends_on "shivammathur/extensions/xdebug@8.3"
+
     def install
         bin.install "switch-php"
     end
