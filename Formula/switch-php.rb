@@ -8,7 +8,7 @@ class SwitchPhp < Formula
     depends_on "riesenia/utils/rprint"
     depends_on "httpd"
 
-    depends_on "shivammathur/utils/php@7.4"
+    depends_on "shivammathur/php/php@7.4"
     depends_on "shivammathur/extensions/imap@7.4"
     depends_on "shivammathur/extensions/xdebug@7.4"
 
